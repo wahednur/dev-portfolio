@@ -26,6 +26,10 @@ header {
   width: 100%;
   background: #fff8f3;
   height: 837px;
+  background-image: url("/../assets/images/circle-bg.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
 }
 header .left-dev {
   width: 101px;
@@ -60,6 +64,11 @@ header .right-logo-nav nav .primary-nav li .btn {
   align-items: center;
   font-size: 20px;
   font-weight: 700;
+}
+header .right-logo-nav .banner-content {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 /*  Header section end *//*# sourceMappingURL=style.css.map */
