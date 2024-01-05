@@ -17,6 +17,7 @@ li {
 /*   reset css end */
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
 }
 header {
   width: 100%;
@@ -167,4 +168,20 @@ section.container {
   padding-bottom: 131px;
   margin: 0px auto;
   text-align: center;
+}
+.ido-items-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 50px;
+}
+.idon-item {
+  padding: 33px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0 0.4);
+  text-align: left;
+}
+.ido-item-title {
+  padding: 20px 0;
 }
