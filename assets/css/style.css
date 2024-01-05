@@ -18,57 +18,76 @@ li {
 body {
   font-family: "Open Sans", sans-serif;
 }
-
-/*  Header section start */
 header {
-  padding-top: 38px;
-  display: flex;
   width: 100%;
-  background: #fff8f3;
+  float: left;
+  display: block;
+}
+.header-section {
+  width: calc(100% - 76px);
   height: 837px;
-  background-image: url("/../assets/images/circle-bg.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
+  background: #fff8f3;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 38px;
+  padding-left: 38px;
+  padding-right: 38px;
 }
 header .left-dev {
   width: 101px;
-  display: block;
 }
-header .right-logo-nav {
-  width: calc(100% - 80px);
+header .right-content {
+  width: calc(100% - 132px);
+}
+header .right-content .logo-nav {
   display: flex;
-  margin-right: 50px;
-  justify-content: space-between;
-  align-items: center;
-  height: 64px;
-}
-header .right-logo-nav nav .primary-nav {
-  display: flex;
-  align-items: center;
-}
-header .right-logo-nav nav .primary-nav li a {
-  padding: 10px 30px;
-}
-header .right-logo-nav nav .primary-nav li a:hover {
-  color: #fd6e0a;
-}
-header .right-logo-nav nav .primary-nav li .btn {
-  background-color: #fd6e0a;
-  border-radius: 5px;
-  color: #fff;
-  min-height: 64px;
-  width: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-weight: 700;
-}
-header .right-logo-nav .banner-content {
-  width: 100%;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .right-content .logo-nav {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header .right-content .logo-nav .logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-/*  Header section end *//*# sourceMappingURL=style.css.map */
+header .right-content .logo-nav span {
+  color: #fd6e0a;
+}
+.logo-nav .top-menu {
+  width: calc(100% - 200px);
+}
+.top-menu nav .primary-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.top-menu nav .primary-nav li {
+}
+.top-menu nav .primary-nav li a {
+  padding: 15px 20px;
+}
+.top-menu nav .primary-nav li a:hover {
+}
+.top-menu nav .primary-nav li a.btn {
+  height: 64px;
+  background-color: #fd6e0a;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff8f3;
+}
