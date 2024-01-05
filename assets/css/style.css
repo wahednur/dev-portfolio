@@ -134,10 +134,11 @@ header .right-content .logo-nav span {
 }
 .banner-image-content img {
 }
-section .container {
+section.container {
   width: 100%;
   display: block;
   float: left;
+  margin-top: 131px;
 }
 .about-section {
   width: 1170px;
@@ -145,7 +146,6 @@ section .container {
   background-color: #fff8f3;
   border-radius: 10px;
   margin: 0px auto;
-  display: inline-block;
   text-align: center;
 }
 .about-contact {
@@ -153,9 +153,18 @@ section .container {
   justify-content: space-around;
   margin-top: 30px;
 }
-.about-section .about-me {
+.section-title {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: 30px;
+}
+
+.what-ido {
+  width: 1170px;
+  padding-left: 131px;
+  padding-right: 131px;
+  padding-bottom: 131px;
+  margin: 0px auto;
+  text-align: center;
 }
