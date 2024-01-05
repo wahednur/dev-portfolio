@@ -83,7 +83,6 @@ header .right-content .logo-nav span {
 .top-menu nav .primary-nav li a:hover {
 }
 .top-menu nav .primary-nav li a.btn {
-  height: 64px;
   background-color: #fd6e0a;
   display: flex;
   width: 150px;
