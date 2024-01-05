@@ -35,6 +35,9 @@ header {
   padding-top: 38px;
   padding-left: 38px;
   padding-right: 38px;
+  background-image: url("/assets/images/circle-bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 header .left-dev {
   width: 101px;
@@ -90,4 +93,42 @@ header .right-content .logo-nav span {
   font-style: normal;
   font-weight: 700;
   color: #fff8f3;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 67px;
+}
+.header-btn-group {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+.banner-text-content a.btn {
+  padding: 10px;
+  border: 1px solid #fd6e0a;
+  width: 48%;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fd6e0a;
+}
+.banner-text-content .btn-fill {
+  background-color: #fd6e0a;
+  color: #fff8f3 !important;
+}
+.banner-text-content a.btn img {
+  width: 20px;
+  padding-right: 15px;
+}
+.banner-text-content,
+.banner-image-content {
+  width: 48%;
+}
+.banner-image-content img {
 }
