@@ -13,13 +13,19 @@ ul,
 li {
   list-style: none;
 }
+img {
+  width: 100%;
+}
 
 /*   reset css end */
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #eeeeee;
 }
-header {
+header,
+section,
+footer,
+.container {
   width: 100%;
   float: left;
   display: block;
@@ -173,6 +179,10 @@ section.container {
   justify-content: space-between;
   gap: 24px;
   margin-top: 50px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }
 .idon-item {
   padding: 33px;
@@ -184,10 +194,7 @@ section.container {
 .ido-item-title {
   padding: 20px 0;
 }
-.fix {
-  width: 1170px;
-  margin: 0 auto;
-}
+
 .resume-wrap {
   display: flex;
   margin-top: 50px;
@@ -285,3 +292,38 @@ textarea {
   color: #00ffea;
   margin-left: 10px;
 }
+/* Responsive break point start */
+/* Responsive for small mobile device start */
+@media (max-width: 600px) {
+  .fix {
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
+  .container {
+    margin: 0 auto !important;
+  }
+}
+/* Responsive for small mobile device end */
+/* Responsive for medium mobile/tab device start */
+@media (min-width: 687) {
+  .fix {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
+}
+/* Responsive for medium mobile/tab device start */
+@media (min-width: 992) {
+  .fix {
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024) {
+  .fix {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+/* Responsive break point end */
