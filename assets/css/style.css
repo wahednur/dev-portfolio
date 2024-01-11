@@ -321,7 +321,7 @@ textarea {
     margin: 0 auto;
     padding: 20px;
     color: #fff;
-    font-size: 58px;
+    font-size: 50px;
   }
   .desk-on {
     display: none;
@@ -525,7 +525,7 @@ textarea {
   }
   .banner-text-content,
   .banner-image-content {
-    width: 47% !important;
+    width: 100% !important;
   }
   .banner-image-content img {
     width: 100%;
@@ -559,6 +559,10 @@ textarea {
 }
 
 @media (min-width: 1200px) {
+  .banner-text-content,
+  .banner-image-content {
+    width: 47% !important;
+  }
   .fix,
   .container {
     margin: 0 auto;
